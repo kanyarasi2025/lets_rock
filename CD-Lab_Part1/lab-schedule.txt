@@ -1,0 +1,112 @@
+Week 1.
+
+Write a Program in C/C++/Java to work as a calculator. 
+Features of the calculator:
+	- the calculator takes input from standard input.
+	- As input, on each line an arithmatic expression can be given in
+	  the standard format and the calculator has to print the o/p
+	  after that.
+	- The calculator should exit, when the user enters the Ctrl^D (eof) character.
+	- Supported operators: +, -, *, /, ^, and (). 
+	- Example run of the program:
+	2 + 3 * 5
+	17
+	(2 + 3) * 5
+	25
+	30 / 5 / 2
+	3
+	2 ^ 3 ^ 2
+	64
+	(2 ^ 3) ^ 2
+	36
+
+Week 2:
+
+	Give a tutorial lecture on basic regular expressions and Flex.
+	Cover at least 4-5 examples.
+
+
+Week 3
+	Using Flex, implement a scanner that can take input via standard input,
+	and output the token values and token ids, (one per line). 
+	If the token is not a valid Java token output the value of the
+	token and the string "invalid token".
+	Assignment file: See the P1-W3 folder
+	Solution files: See the P1-W3-sol folder
+
+Week 4
+
+	Give a tutorial lecture on context free grammar and bison.
+	Cover at least 4-5 examples.
+
+Week 5
+	Parsing part-I: Using Flex and Bison, implement a parser that can take input via standard input,
+	and the string "Program parsed successfully.", if it is a valid
+	MiniJava Syntax, and "Syntax error.", otherwise.
+	The grammar should be able to handle programs with :
+		- the main class and the associated main function.
+	Assignment file: See the P1-W5
+	Solution files: See the P1-W5-sol
+
+Week 6
+	Parsing part-II: Using Flex and Bison, implement a parser that can take input via standard input,
+	and the string "Program parsed successfully.", if it is a valid
+	MiniJava Syntax, and "Syntax Error", otherwise.
+	The grammar should be able to handle all the MiniJava programs.
+	Assignment file: See the P1-W6 folder
+	Solution files: See the P1-W6-sol folder
+
+
+Week 7
+	Introduction to basic Java for C++ programmers; make sure to cover
+		- dynamic dispatch
+		- object allocation
+		- arrays
+		- collection classes
+		- printing to staandard output.
+		- static fields
+	Use 2-3 examples for each of the above.
+	
+Week 8
+	Teach how to traverse a syntax and generate code for different
+	types of syntax tree nodes. The students should be able to
+	understand that we can associate different actions with different
+	types of syntax tree nodes.
+
+	Teach the instructions in miniIR
+	(See https://www.cse.iitm.ac.in/~krishna/cs3/subsets.html):
+	
+	Lab work: Generate mini-IR code for arithmatic expressions. 
+	Assignment file: P2-W8.tar.gz -- Generate it from ACE (assignment 2)
+	Solution files: P2-W8-sol.tar.gz -- Generate it from ACE (assignment 2)
+
+Week 9
+	
+	Lab work: Generate miniR cor
+	if-else statements, while statements.
+	Assignment file: P2-W9.tar.gz -- Generate it from ACE (assignment 2)
+	Solution files: P2-W9-sol.tar.gz -- Generate it from ACE (assignment 2)
+
+Week 10
+	Teach about MIPS assembly (relevant to our requirements). Cover,
+	the details about available registers, instructions (loads,
+	stores, calls, system calls, printing etc). Some details about MIPS can
+        be found here: https://www.cse.iitm.ac.in/~krishna/cs3300/subsets.html
+
+	Introduce how to use SPIM simulator. Teach them how to single step
+	in the SPIM simulator (the students can be shown how after each
+	step the values of the registers etc keep changing). Use
+	Fibinacci.s  as a sample file.
+
+Week 11
+	
+	Lab work: Generate MIPS code for microIR code.
+	
+	Assignment file: P3-W11.tar.gz -- Generate it from ACE (assignment 5)
+	Solution files: P3-W11-sol.tar.gz -- Generate it from ACE (assignment 5)
+
+Week 12
+	Lab work: Using the ACE tool, generate MIPS code for
+	
+	Assignment file: P3-W12.tar.gz -- Generate it from ACE (assignment 5)
+	Solution files: P3-W12-sol.tar.gz -- Generate it from ACE (assignment 5)
